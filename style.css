@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family= Lora:wght@700 & display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.logo-card{
+    background-color: aliceblue;
+    border-radius: 20px;
+    padding: 0px;
+    margin-top: -700px;
+    margin: 10;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+.page1{
+    background-color: antiquewhite;
+    background: 
+    linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.5)),
+    url("recife.jpg") no-repeat center top fixed;
+    background-size: cover;
+
+}
+
+    /*
+    .card{
+        background-color: aliceblue;
+        height: 100px;
+        border-radius: 30px;
+        border-color: #000000 2px;
+        
+    } */
+    .interface h1{
+
+        color: #ffffff;
+        font-size: 3em;
+        font-weight: 600;
+
+    }
+
+    .interface h2{
+        color: rgb(90, 150, 206);
+        font-size: 4em;
+        margin-left: 20px;
+        font: 'lora';
+    }
+
+    .interface p{
+        margin-top: 500px;
+        background-color: black;
+    }
+
+
+
+
+
+
+.page2{
+    background-color: rgb(235, 253, 133);
+}
+
+        .aboutUs img{
+            margin-top: 500px;
+            margin-left: 0px;
+            border-radius: 20px;
+            border: 3px solid #151414 ;
+            box-shadow: 5px 5px 0 rgba(0,0,0,0.5);
+            margin-right: 10px;
+        }
+
+        .page2 h3{
+            margin-right: 0px;
+            height: 1000px;
+            margin-top: 200px;
+            margin-left: 20px;
+            font: 'lora', sans-serif;
+            font-size: 2em;
+            text-decoration: underline;
+            
+        }
+        /*
+        .sobrenos{
+            background-color: rgb(255, 255, 255);
+            padding: 350px;
+            width: 150px;
+            height: 100px;
+            margin-right: 100px;
+            border:2px solid #151414;
+            align-items: center;
+            display: flex;
+            border-radius: 40px;
+            justify-content: center;
+            word-wrap: break-word;
+        
+            
+        }*/
+        .sobrenos p1{
+            display: flex;
+            writing-mode: horizontal-tb;
+            background-color: #ffffff;
+            flex-direction: row;
+            padding: 100px;
+            width: 600px;
+            border-radius: 20px;
+            border: 3px solid #00000000;
+            box-shadow: 0px 5px 0 rgba(0,0,0,0.5);
+            font-size: large;
+            font-family: 'Open sans';
+            
+        }
+
+
+
+
+.page3{
+    background-color: rgb(215, 57, 88);
+}
+
+
+.interface h4{
+margin-left: 10px;
+text-decoration: underline;
+padding-left: 50px;
+display: flex;
+font-weight: bolder;
+font-size: 3em;
+font-weight: 900;
+font: 'lora';
+height: 700px;
+
+
+
+}
+
+
+
+.relogio{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 550px;
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: 0px 8px 10px rgba(0,0,0,0.5);
+    height: 200px;
+    margin-right: 50px;
+    margin-left: 70px;
+    
+
+}
+
+.relogio div{
+    height: 170px;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: rgba(5,5,5,0.9);
+    box-shadow: 5px 5px 15px rgba(0,0,0,.7);
+    border-radius: 20px;
+    background-color: #151414;
+}
+
+
+.relogio span{
+    font-weight: bolder;
+    font-size: 60px;
+}
+
+
+.relogio span.tempo{
+    font-size: 10px;
+}
+
+
+
+.container{
+    background-color: #fbf3d5;
+    margin-left: 180px;
+    padding: 100px;
+    border: dotted;
+    border-radius: 50px;
+    box-shadow: 0px 5px 15px rgba(0,0,0,0.5);
+
+}
+
+
+.container div{
+    padding: 10px;
+}
+
+.container label{
+    font-size: 15px;
+    font-weight: bolder;
+    color: rgb(51, 56, 59);
+    font-family: 'Open sans';
+}
+
+
+.container textarea{
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+}
+
+.container input{
+    width: 400px;
+    height: 30px;
+    border-radius: 10px;
+}
+
+.container button{
+    padding: 15px;
+    width: 100px;
+    margin-left: 300px;
+    border-radius: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #782dd4;
+    font-weight: bolder;
+    font-size: 15px;
+    
+    color: #fff;
+}
+
+
+
+.container button:hover{
+        cursor: pointer;
+        background-color: #151414;
+        transition: background 0.5s;
+        box-shadow: 0px 5px 5px rgba(0,0,0,0.5);
+}
+
+
+
+.interface h5{
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 5px;
+    border: 2px solid ;
+    font-size: medium;
+
+    
+    
+}
+
+
+
+
+.interface{
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+
+}
+
+
+section{
+    height: 100vh;
+    scroll-snap-align: start;
+    display:flex;
+    position: sticky;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
